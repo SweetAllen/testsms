@@ -23,12 +23,12 @@ import { useNavigate } from 'react-router-dom';
 
 function ExcelData() {
 
-   const [exceldata, setExcelData] = useState([]);
-  const [rows, setRows] = useState([]);
-   const [test, setTest] = useState([]);
-   const [syncdata, setSyncData] = useState();
-   const [rowSelection, setRowSelection] = useState({});
-   const navigate = useNavigate();
+    const [exceldata, setExcelData] = useState([]);
+    const [rows, setRows] = useState([]);
+    const [test, setTest] = useState([]);
+    const [syncdata, setSyncData] = useState();
+    const [rowSelection, setRowSelection] = useState({});
+    const navigate = useNavigate();
 
 //    {
 //     "senderid": "Default",
