@@ -32,7 +32,7 @@ export default function Login() {
     if (!isLoggedIn) {
       navigate("/");
     } else {
-      navigate("/sms");
+      navigate("/dashboard");
       // navigate({
       
       //   pathname: "/viewst",
